@@ -1,0 +1,710 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	My Church
+ * @version 	1.0.6
+ * 
+ * Theme Information
+ * Created by CMSMasters
+ * 
+ */
+
+To update your theme please use the files list from the FILE LOGS below and substitute/add the listed files on your server with the same files in the Updates folder.
+
+Important: after you have updated the theme, in your admin panel please proceed to
+Theme Settings - Fonts and click "Save" in any tab,
+then proceed to 
+Theme Settings - Colors and click "Save" in any tab here.
+
+
+--------------------------------------
+Version 1.0.6: files operations:
+	
+  Theme Files edited:
+		my-church\theme-framework\theme-style\function\template-functions-single.php
+		my-church\theme-framework\theme-style\function\theme-colors-primary.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\function\plugin-colors.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\function\plugin-template-functions.php
+		my-church\framework\admin\inc\js\wp-color-picker-alpha.js
+		my-church\framework\admin\settings\cmsmasters-theme-settings-single.php
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings.css
+		my-church\framework\function\general-functions.php
+		my-church\js\jquery.script.js
+		my-church\js\scrollspy.js
+		my-church\readme.txt
+		my-church\sidebar-bottom.php
+		my-church\sidebar.php
+		my-church\style.css
+		my-church\theme-framework\languages\my-church.pot
+		my-church\theme-framework\plugin-activator.php
+		my-church\theme-framework\plugins\cmsmasters-contact-form-builder.zip
+		my-church\theme-framework\plugins\cmsmasters-content-composer.zip
+		my-church\theme-framework\plugins\cmsmasters-donations.zip
+		my-church\theme-framework\plugins\cmsmasters-mega-menu.zip
+		my-church\theme-framework\plugins\cmsmasters-sermons.zip
+		my-church\theme-framework\plugins\LayerSlider.zip
+		my-church\theme-framework\plugins\revslider.zip
+		my-church\theme-framework\plugins\timetable.zip
+		my-church\theme-framework\theme-style\admin\theme-settings-defaults.php
+		my-church\theme-framework\theme-style\class\theme-widgets.php
+		my-church\theme-framework\theme-style\css\less\style.less
+		my-church\theme-framework\theme-style\css\style.css
+		my-church\theme-framework\theme-style\postType\blog\post-single.php
+		my-church\theme-framework\theme-style\postType\portfolio\project-single.php
+		my-church\theme-framework\theme-style\postType\profile\profile-single.php
+		my-church\theme-framework\plugins\envato-market.zip
+		my-church\theme-framework\theme-style\css\adaptive.css
+		my-church\theme-framework\theme-style\css\less\adaptive.less
+
+
+--------------------------------------
+Version 1.0.5: files operations:
+	
+  Theme Files edited:
+		
+		my-church\theme-framework\theme-style\css\styles\my-church.css
+		my-church\theme-framework\theme-style\js\jquery.theme-script.js
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\readme.txt
+		my-church\style.css
+		my-church\theme-framework\languages\my-church.pot
+		my-church\theme-framework\theme-style\css\less\style.less
+		my-church\theme-framework\theme-style\css\style.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\less\plugin-adaptive.less
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\function\plugin-template-functions.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product-reviews.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\product-thumbnails.php
+		my-church\woocommerce\single-product-reviews.php
+		my-church\woocommerce\single-product\product-image.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\js\jquery.plugin-script.js
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\postType\standard.php
+		my-church\comments.php
+		my-church\framework\admin\inc\admin-scripts.php
+		my-church\framework\admin\inc\config-functions.php
+		my-church\framework\admin\inc\js\admin-theme-scripts.js
+		my-church\framework\admin\options\cmsmasters-theme-options-post.php
+		my-church\framework\admin\options\cmsmasters-theme-options-project.php
+		my-church\framework\admin\options\cmsmasters-theme-options.php
+		my-church\framework\admin\options\js\cmsmasters-theme-options-toggle.js
+		my-church\framework\admin\settings\cmsmasters-theme-settings-demo.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-element.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-general.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-single.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings.php
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings-rtl.css
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings.css
+		my-church\framework\admin\settings\js\cmsmasters-theme-settings.js
+		my-church\framework\class\browser.php
+		my-church\framework\function\breadcrumbs.php
+		my-church\framework\function\general-functions.php
+		my-church\framework\function\likes.php
+		my-church\framework\function\theme-categories-icon.php
+		my-church\js\cmsmasters-hover-slider.min.js
+		my-church\js\debounced-resize.min.js
+		my-church\js\easing.min.js
+		my-church\js\easy-pie-chart.min.js
+		my-church\js\jquery.isotope.min.js
+		my-church\js\jquery.script.js
+		my-church\js\modernizr.min.js
+		my-church\js\mousewheel.min.js
+		my-church\js\owlcarousel.min.js
+		my-church\js\query-loader.min.js
+		my-church\js\request-animation-frame.min.js
+		my-church\js\respond.min.js
+		my-church\js\scroll-to.min.js
+		my-church\js\stellar.min.js
+		my-church\js\waypoints.min.js
+		my-church\theme-framework\plugin-activator.php
+		my-church\theme-framework\plugins\cmsmasters-content-composer.zip
+		my-church\theme-framework\plugins\LayerSlider.zip
+		my-church\theme-framework\plugins\revslider.zip
+		my-church\theme-framework\theme-style\admin\theme-settings-defaults.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-blog.php
+		my-church\theme-framework\theme-style\css\adaptive.css
+		my-church\theme-framework\theme-style\css\less\adaptive.less
+		my-church\theme-framework\theme-style\css\less\general.less
+		my-church\theme-framework\theme-style\function\template-functions-post.php
+		my-church\theme-framework\theme-style\function\template-functions-profile.php
+		my-church\theme-framework\theme-style\function\template-functions-project.php
+		my-church\theme-framework\theme-style\function\template-functions-shortcodes.php
+		my-church\theme-framework\theme-style\function\theme-colors-primary.php
+		my-church\theme-framework\theme-style\function\theme-fonts.php
+		my-church\theme-framework\theme-style\js\jquery.isotope.mode.js
+		my-church\theme-framework\theme-style\postType\blog\post-default.php
+		my-church\theme-framework\theme-style\template\archive.php
+		my-church\timetable\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\content-single-product.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\product-image.php
+		my-church\theme-framework\plugins\cmsmasters-contact-form-builder.zip
+		my-church\theme-framework\plugins\timetable.zip
+		my-church\theme-framework\plugins\cmsmasters-donations.zip
+
+  Theme Files added:
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\js\jquery.plugin-script.js
+		my-church\js\cmsmasters-hover-slider.min.js
+		my-church\js\debounced-resize.min.js
+		my-church\js\easing.min.js
+		my-church\js\easy-pie-chart.min.js
+		my-church\js\modernizr.min.js
+		my-church\js\mousewheel.min.js
+		my-church\js\owlcarousel.min.js
+		my-church\js\query-loader.min.js
+		my-church\js\request-animation-frame.min.js
+		my-church\js\respond.min.js
+		my-church\js\scroll-spy.min.js
+		my-church\js\scroll-to.min.js
+		my-church\js\stellar.min.js
+		my-church\js\waypoints.min.js
+		my-church\js\scrollspy.js
+
+
+  Theme Files removed:
+		my-church\js\jqueryLibraries.min.js
+		my-church\js\jsLibraries.min.js
+		my-church\js\scroll-spy.min.js
+
+
+--------------------------------------
+Version 1.0.4: files operations:
+	
+  Theme Files edited:
+		
+		my-church\theme-framework\plugins\timetable.zip
+		my-church\framework\admin\options\cmsmasters-theme-options-post.php
+		my-church\framework\admin\options\cmsmasters-theme-options-project.php
+		my-church\framework\admin\options\cmsmasters-theme-options.php
+		my-church\framework\function\general-functions.php
+		my-church\js\jquery.script.js
+		my-church\readme.txt
+		my-church\theme-framework\languages\my-church.pot
+		my-church\theme-framework\plugin-activator.php
+		my-church\theme-framework\theme-style\class\theme-widgets.php
+		my-church\theme-framework\theme-style\css\styles\my-church.css
+		my-church\theme-framework\theme-style\function\template-functions-profile.php
+		my-church\theme-framework\theme-style\function\template-functions-project.php
+		my-church\theme-framework\theme-style\js\jquery.isotope.mode.js
+		my-church\theme-framework\theme-style\js\jquery.theme-script.js
+		my-church\theme-framework\theme-style\postType\blog\post-single.php
+		my-church\theme-framework\theme-style\postType\portfolio\project-single.php
+		my-church\theme-framework\theme-style\postType\profile\profile-single.php
+		my-church\theme-framework\theme-style\template\archive.php
+		my-church\theme-framework\theme-style\theme-functions.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\style.css
+		my-church\theme-framework\plugins\cmsmasters-contact-form-builder.zip
+		my-church\theme-framework\plugins\cmsmasters-content-composer.zip
+		my-church\theme-framework\plugins\LayerSlider.zip
+		my-church\theme-framework\plugins\revslider.zip
+		my-church\theme-framework\theme-style\css\less\style.less
+		my-church\theme-framework\theme-style\css\style.css
+
+
+--------------------------------------
+Version 1.0.3: files operations:
+	
+  Theme Files edited:
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-campaigns.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-featured-campaign.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings.php
+		my-church\framework\function\breadcrumbs.php
+		my-church\framework\function\general-functions.php
+		my-church\js\jquery.isotope.min.js
+		my-church\js\jqueryLibraries.min.js
+		my-church\readme.txt
+		my-church\style.css
+		my-church\theme-framework\plugin-activator.php
+		my-church\theme-framework\plugins\cmsmasters-content-composer.zip
+		my-church\theme-framework\plugins\cmsmasters-donations.zip
+		my-church\theme-framework\plugins\cmsmasters-sermons.zip
+		my-church\theme-framework\plugins\LayerSlider.zip
+		my-church\theme-framework\plugins\revslider.zip
+		my-church\theme-framework\plugins\timetable.zip
+		my-church\theme-framework\theme-style\css\less\style.less
+		my-church\theme-framework\theme-style\css\style.css
+		my-church\theme-framework\theme-style\js\jquery.isotope.mode.js
+		my-church\theme-framework\theme-style\js\jquery.theme-script.js
+		my-church\comments.php
+		my-church\framework\admin\inc\admin-scripts.php
+		my-church\framework\admin\inc\config-functions.php
+		my-church\framework\admin\inc\js\admin-theme-scripts.js
+		my-church\framework\admin\options\cmsmasters-theme-options-post.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-demo.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-element.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-general.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-single.php
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings-rtl.css
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings.css
+		my-church\framework\admin\settings\js\cmsmasters-theme-settings.js
+		my-church\framework\class\browser.php
+		my-church\framework\function\theme-categories-icon.php
+		my-church\theme-framework\theme-style\css\adaptive.css
+		my-church\theme-framework\theme-style\css\less\adaptive.less
+		my-church\theme-framework\theme-style\function\template-functions-single.php
+		my-church\theme-framework\theme-style\function\template-functions.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product-reviews.php
+		my-church\framework\admin\options\cmsmasters-theme-options-project.php
+		my-church\framework\admin\options\js\cmsmasters-theme-options-toggle.js
+		my-church\theme-framework\languages\my-church.pot
+		my-church\theme-framework\plugins\cmsmasters-contact-form-builder.zip
+		my-church\theme-framework\plugins\cmsmasters-mega-menu.zip
+		my-church\theme-framework\theme-style\postType\portfolio\project-single.php
+		my-church\theme-framework\theme-style\css\styles\my-church.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\woocommerce\single-product\product-image.php
+		my-church\woocommerce\single-product\product-thumbnails.php
+		
+		
+  Theme Files removed:
+		my-church\css\jquery.isotope.css
+
+
+--------------------------------------
+Version 1.0.2: files operations:
+	
+  Theme Files edited:
+		my-church\404.php
+		my-church\archive.php
+		my-church\author.php
+		my-church\event-template.php
+		my-church\footer.php
+		my-church\framework\admin\inc\admin-scripts.php
+		my-church\framework\admin\inc\config-functions.php
+		my-church\framework\admin\inc\js\admin-theme-scripts.js
+		my-church\framework\admin\settings\cmsmasters-theme-settings-demo.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings-general.php
+		my-church\framework\admin\settings\cmsmasters-theme-settings.php
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings-rtl.css
+		my-church\framework\admin\settings\css\cmsmasters-theme-settings.css
+		my-church\framework\admin\settings\js\cmsmasters-theme-settings.js
+		my-church\framework\class\browser.php
+		my-church\framework\function\general-functions.php
+		my-church\functions.php
+		my-church\header.php
+		my-church\index.php
+		my-church\js\jqueryLibraries.min.js
+		my-church\page.php
+		my-church\readme.txt
+		my-church\search.php
+		my-church\single-campaign.php
+		my-church\single-donation.php
+		my-church\single-profile.php
+		my-church\single-project.php
+		my-church\single-sermon.php
+		my-church\single.php
+		my-church\sitemap.php
+		my-church\style.css
+		my-church\theme-framework\languages\my-church.pot
+		my-church\tribe-events\day\single-event.php
+		my-church\tribe-events\default-template.php
+		my-church\tribe-events\list\single-event.php
+		my-church\tribe-events\modules\bar.php
+		my-church\tribe-events\modules\meta.php
+		my-church\tribe-events\modules\meta\details.php
+		my-church\tribe-events\modules\meta\organizer.php
+		my-church\tribe-events\modules\meta\venue.php
+		my-church\tribe-events\month\single-event.php
+		my-church\tribe-events\month\tooltip.php
+		my-church\tribe-events\pro\map\single-event.php
+		my-church\tribe-events\pro\modules\meta\additional-fields.php
+		my-church\tribe-events\pro\photo\content.php
+		my-church\tribe-events\pro\photo\single-event.php
+		my-church\tribe-events\pro\related-events.php
+		my-church\tribe-events\pro\single-organizer.php
+		my-church\tribe-events\pro\single-venue.php
+		my-church\tribe-events\pro\week\single-event.php
+		my-church\tribe-events\pro\week\tooltip.php
+		my-church\tribe-events\pro\widgets\list-widget.php
+		my-church\tribe-events\pro\widgets\modules\single-event.php
+		my-church\tribe-events\pro\widgets\this-week\single-event.php
+		my-church\tribe-events\pro\widgets\venue-widget.php
+		my-church\tribe-events\single-event.php
+		my-church\tribe-events\widgets\list-widget.php
+		my-church\woocommerce\archive-product.php
+		my-church\woocommerce\content-product.php
+		my-church\woocommerce\content-single-product.php
+		my-church\woocommerce\content-widget-product.php
+		my-church\woocommerce\global\sidebar.php
+		my-church\woocommerce\global\wrapper-end.php
+		my-church\woocommerce\global\wrapper-start.php
+		my-church\woocommerce\loop\loop-start.php
+		my-church\woocommerce\loop\pagination.php
+		my-church\woocommerce\product-searchform.php
+		my-church\woocommerce\single-product-reviews.php
+		my-church\woocommerce\single-product.php
+		my-church\woocommerce\single-product\meta.php
+		my-church\woocommerce\single-product\product-image.php
+		my-church\woocommerce\single-product\product-thumbnails.php
+		my-church\woocommerce\single-product\review.php
+		my-church\woocommerce\single-product\tabs\tabs.php
+
+
+  Theme Files added:
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\admin\plugin-settings.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-campaigns.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-featured-campaign.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\css\less\plugin-adaptive.less
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\css\plugin-rtl.css
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\function\plugin-colors.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\function\plugin-fonts.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\function\plugin-template-functions.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\postType\campaign-horizontal.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\postType\campaign-vertical.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\postType\donation-standard.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\templates\single-campaign.php
+		my-church\cmsmasters-donations\cmsmasters-framework\theme-style\templates\single-donation.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\css\less\plugin-adaptive.less
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\css\plugin-rtl.css
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\function\plugin-colors.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\function\plugin-fonts.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\js\jquery.plugin-script.js
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\postType\standard.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\theme-style\templates\single-sermon.php
+		my-church\framework\function\theme-categories-icon.php
+		my-church\instagram-feed\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\instagram-feed\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\instagram-feed\cmsmasters-framework\theme-style\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\instagram-feed\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\theme-framework\plugin-activator.php
+		my-church\theme-framework\plugins\cmsmasters-contact-form-builder.zip
+		my-church\theme-framework\plugins\cmsmasters-content-composer.zip
+		my-church\theme-framework\plugins\cmsmasters-donations.zip
+		my-church\theme-framework\plugins\cmsmasters-mega-menu.zip
+		my-church\theme-framework\plugins\cmsmasters-sermons.zip
+		my-church\theme-framework\plugins\LayerSlider.zip
+		my-church\theme-framework\plugins\revslider.zip
+		my-church\theme-framework\plugins\timetable.zip
+		my-church\theme-framework\theme-style\admin\fonts\config-custom.json
+		my-church\theme-framework\theme-style\admin\theme-options.php
+		my-church\theme-framework\theme-style\admin\theme-settings-defaults.php
+		my-church\theme-framework\theme-style\admin\theme-settings.php
+		my-church\theme-framework\theme-style\class\theme-widgets.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-theme-functions.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-theme-shortcodes.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\js\cmsmasters-c-c-theme-extend.js
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-blog.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-posts-slider.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-pricing-table-item.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-quotes.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-stat.php
+		my-church\theme-framework\theme-style\cmsmasters-c-c\shortcodes\cmsmasters-tab.php
+		my-church\theme-framework\theme-style\css\adaptive.css
+		my-church\theme-framework\theme-style\css\fontello-custom.css
+		my-church\theme-framework\theme-style\css\fonts\fontello-custom.eot
+		my-church\theme-framework\theme-style\css\fonts\fontello-custom.svg
+		my-church\theme-framework\theme-style\css\fonts\fontello-custom.ttf
+		my-church\theme-framework\theme-style\css\fonts\fontello-custom.woff
+		my-church\theme-framework\theme-style\css\less\adaptive.less
+		my-church\theme-framework\theme-style\css\less\general.less
+		my-church\theme-framework\theme-style\css\less\style.less
+		my-church\theme-framework\theme-style\css\retina.css
+		my-church\theme-framework\theme-style\css\rtl.css
+		my-church\theme-framework\theme-style\css\style.css
+		my-church\theme-framework\theme-style\css\styles\my-church.css
+		my-church\theme-framework\theme-style\function\single-comment.php
+		my-church\theme-framework\theme-style\function\template-functions-post.php
+		my-church\theme-framework\theme-style\function\template-functions-profile.php
+		my-church\theme-framework\theme-style\function\template-functions-project.php
+		my-church\theme-framework\theme-style\function\template-functions-shortcodes.php
+		my-church\theme-framework\theme-style\function\template-functions-single.php
+		my-church\theme-framework\theme-style\function\template-functions.php
+		my-church\theme-framework\theme-style\function\theme-colors-primary.php
+		my-church\theme-framework\theme-style\function\theme-colors-secondary.php
+		my-church\theme-framework\theme-style\function\theme-fonts.php
+		my-church\theme-framework\theme-style\img\logo.png
+		my-church\theme-framework\theme-style\img\logo_footer.png
+		my-church\theme-framework\theme-style\img\logo_footer_retina.png
+		my-church\theme-framework\theme-style\img\logo_retina.png
+		my-church\theme-framework\theme-style\js\jquery.isotope.mode.js
+		my-church\theme-framework\theme-style\js\jquery.theme-script.js
+		my-church\theme-framework\theme-style\postType\blog\post-default.php
+		my-church\theme-framework\theme-style\postType\blog\post-masonry.php
+		my-church\theme-framework\theme-style\postType\blog\post-puzzle.php
+		my-church\theme-framework\theme-style\postType\blog\post-single.php
+		my-church\theme-framework\theme-style\postType\blog\post-timeline.php
+		my-church\theme-framework\theme-style\postType\portfolio\project-grid.php
+		my-church\theme-framework\theme-style\postType\portfolio\project-puzzle.php
+		my-church\theme-framework\theme-style\postType\portfolio\project-single.php
+		my-church\theme-framework\theme-style\postType\posts-slider\slider-post.php
+		my-church\theme-framework\theme-style\postType\posts-slider\slider-project.php
+		my-church\theme-framework\theme-style\postType\profile\profile-horizontal.php
+		my-church\theme-framework\theme-style\postType\profile\profile-single.php
+		my-church\theme-framework\theme-style\postType\profile\profile-vertical.php
+		my-church\theme-framework\theme-style\postType\quote\quote-grid.php
+		my-church\theme-framework\theme-style\postType\quote\quote-slider.php
+		my-church\theme-framework\theme-style\template\404.php
+		my-church\theme-framework\theme-style\template\archive.php
+		my-church\theme-framework\theme-style\template\footer.php
+		my-church\theme-framework\theme-style\template\header-bot.php
+		my-church\theme-framework\theme-style\template\header-mid.php
+		my-church\theme-framework\theme-style\template\header-top.php
+		my-church\theme-framework\theme-style\theme-functions.php
+		my-church\timetable\cmsmasters-framework\theme-style\admin\js\plugin-options-toggle.js
+		my-church\timetable\cmsmasters-framework\theme-style\admin\js\plugin-settings-toggle.js
+		my-church\timetable\cmsmasters-framework\theme-style\admin\plugin-options.php
+		my-church\timetable\cmsmasters-framework\theme-style\admin\plugin-settings.php
+		my-church\timetable\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\timetable\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\timetable\cmsmasters-framework\theme-style\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\timetable\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\timetable\cmsmasters-framework\theme-style\css\less\plugin-adaptive.less
+		my-church\timetable\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\timetable\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\timetable\cmsmasters-framework\theme-style\css\plugin-rtl.css
+		my-church\timetable\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\timetable\cmsmasters-framework\theme-style\function\plugin-colors.php
+		my-church\timetable\cmsmasters-framework\theme-style\function\plugin-fonts.php
+		my-church\timetable\cmsmasters-framework\theme-style\templates\event-template.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\admin\plugin-settings.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\css\less\plugin-adaptive.less
+		my-church\tribe-events\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\tribe-events\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\tribe-events\cmsmasters-framework\theme-style\css\plugin-rtl.css
+		my-church\tribe-events\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\tribe-events\cmsmasters-framework\theme-style\function\plugin-colors.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\function\plugin-fonts.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\day\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\default-template.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\list\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\modules\bar.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\modules\meta.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\modules\meta\details.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\modules\meta\organizer.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\modules\meta\venue.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\month\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\month\tooltip.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\map\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\modules\meta\additional-fields.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\photo\content.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\photo\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\related-events.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\single-organizer.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\single-venue.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\week\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\week\tooltip.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\widgets\list-widget.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\widgets\modules\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\widgets\this-week\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\pro\widgets\venue-widget.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\single-event.php
+		my-church\tribe-events\cmsmasters-framework\theme-style\templates\widgets\list-widget.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\admin\plugin-options.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\woocommerce\cmsmasters-framework\theme-style\cmsmasters-plugin-functions.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\less\plugin-adaptive.less
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\less\plugin-style.less
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-adaptive.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-rtl.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\css\plugin-style.css
+		my-church\woocommerce\cmsmasters-framework\theme-style\function\plugin-colors.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\function\plugin-fonts.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\function\plugin-template-functions.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\js\jquery.plugin-script.js
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\archive-product.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\content-product.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\content-single-product.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\content-widget-product.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\global\sidebar.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\global\wrapper-end.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\global\wrapper-start.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\loop\loop-start.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\loop\pagination.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\product-searchform.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product-reviews.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\meta.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\product-image.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\product-thumbnails.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\review.php
+		my-church\woocommerce\cmsmasters-framework\theme-style\templates\single-product\tabs\tabs.php
+
+	
+  Theme Files removed:
+		my-church\cmsmasters-donations\cmsmasters-framework\admin\plugin-settings.php
+		my-church\cmsmasters-donations\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\cmsmasters-donations\cmsmasters-framework\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\cmsmasters-donations\cmsmasters-framework\cmsmasters-c-c\shortcodes\cmsmasters-campaigns.php
+		my-church\cmsmasters-donations\cmsmasters-framework\cmsmasters-c-c\shortcodes\cmsmasters-featured-campaign.php
+		my-church\cmsmasters-donations\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\cmsmasters-donations\cmsmasters-framework\css\less\plugin-style.less
+		my-church\cmsmasters-donations\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\cmsmasters-donations\cmsmasters-framework\css\plugin-rtl.css
+		my-church\cmsmasters-donations\cmsmasters-framework\css\plugin-style.css
+		my-church\cmsmasters-donations\cmsmasters-framework\function\plugin-colors.php
+		my-church\cmsmasters-donations\cmsmasters-framework\function\plugin-fonts.php
+		my-church\cmsmasters-donations\cmsmasters-framework\function\plugin-template-functions.php
+		my-church\cmsmasters-donations\cmsmasters-framework\postType\campaign-horizontal.php
+		my-church\cmsmasters-donations\cmsmasters-framework\postType\campaign-vertical.php
+		my-church\cmsmasters-donations\cmsmasters-framework\postType\donation-standard.php
+		my-church\cmsmasters-donations\cmsmasters-plugin-functions.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\cmsmasters-sermons\cmsmasters-framework\css\less\plugin-style.less
+		my-church\cmsmasters-sermons\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\cmsmasters-sermons\cmsmasters-framework\css\plugin-rtl.css
+		my-church\cmsmasters-sermons\cmsmasters-framework\css\plugin-style.css
+		my-church\cmsmasters-sermons\cmsmasters-framework\function\plugin-colors.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\function\plugin-fonts.php
+		my-church\cmsmasters-sermons\cmsmasters-framework\js\jquery.plugin-script.js
+		my-church\cmsmasters-sermons\cmsmasters-framework\postType\standard.php
+		my-church\cmsmasters-sermons\cmsmasters-plugin-functions.php
+		my-church\css\styles\my-church.css
+		my-church\instagram-feed\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\instagram-feed\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\instagram-feed\cmsmasters-framework\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\instagram-feed\cmsmasters-plugin-functions.php
+		my-church\rtl.css
+		my-church\searchform.php
+		my-church\theme-framework\admin\fonts\config-custom.json
+		my-church\theme-framework\admin\plugin-activator.php
+		my-church\theme-framework\admin\plugins\cmsmasters-contact-form-builder.zip
+		my-church\theme-framework\admin\plugins\cmsmasters-content-composer.zip
+		my-church\theme-framework\admin\plugins\cmsmasters-donations.zip
+		my-church\theme-framework\admin\plugins\cmsmasters-mega-menu.zip
+		my-church\theme-framework\admin\plugins\cmsmasters-sermons.zip
+		my-church\theme-framework\admin\plugins\LayerSlider.zip
+		my-church\theme-framework\admin\plugins\revslider.zip
+		my-church\theme-framework\admin\plugins\timetable.zip
+		my-church\theme-framework\admin\theme-options.php
+		my-church\theme-framework\admin\theme-settings-defaults.php
+		my-church\theme-framework\admin\theme-settings.php
+		my-church\theme-framework\class\theme-widgets.php
+		my-church\theme-framework\cmsmasters-c-c\cmsmasters-c-c-theme-functions.php
+		my-church\theme-framework\cmsmasters-c-c\cmsmasters-c-c-theme-shortcodes.php
+		my-church\theme-framework\cmsmasters-c-c\js\cmsmasters-c-c-theme-extend.js
+		my-church\theme-framework\cmsmasters-c-c\shortcodes\cmsmasters-blog.php
+		my-church\theme-framework\cmsmasters-c-c\shortcodes\cmsmasters-posts-slider.php
+		my-church\theme-framework\cmsmasters-c-c\shortcodes\cmsmasters-pricing-table-item.php
+		my-church\theme-framework\cmsmasters-c-c\shortcodes\cmsmasters-quotes.php
+		my-church\theme-framework\cmsmasters-c-c\shortcodes\cmsmasters-stat.php
+		my-church\theme-framework\cmsmasters-c-c\shortcodes\cmsmasters-tab.php
+		my-church\theme-framework\css\adaptive.css
+		my-church\theme-framework\css\fontello-custom.css
+		my-church\theme-framework\css\fonts\fontello-custom.eot
+		my-church\theme-framework\css\fonts\fontello-custom.svg
+		my-church\theme-framework\css\fonts\fontello-custom.ttf
+		my-church\theme-framework\css\fonts\fontello-custom.woff
+		my-church\theme-framework\css\less\adaptive.less
+		my-church\theme-framework\css\less\general.less
+		my-church\theme-framework\css\less\style.less
+		my-church\theme-framework\css\retina.css
+		my-church\theme-framework\function\single-comment.php
+		my-church\theme-framework\function\template-functions-post.php
+		my-church\theme-framework\function\template-functions-profile.php
+		my-church\theme-framework\function\template-functions-project.php
+		my-church\theme-framework\function\template-functions-shortcodes.php
+		my-church\theme-framework\function\template-functions-single.php
+		my-church\theme-framework\function\template-functions.php
+		my-church\theme-framework\function\theme-colors-primary.php
+		my-church\theme-framework\function\theme-colors-secondary.php
+		my-church\theme-framework\function\theme-fonts.php
+		my-church\theme-framework\img\logo.png
+		my-church\theme-framework\img\logo_footer.png
+		my-church\theme-framework\img\logo_footer_retina.png
+		my-church\theme-framework\img\logo_retina.png
+		my-church\theme-framework\js\jquery.isotope.mode.js
+		my-church\theme-framework\js\jquery.theme-script.js
+		my-church\theme-framework\postType\blog\post-default.php
+		my-church\theme-framework\postType\blog\post-masonry.php
+		my-church\theme-framework\postType\blog\post-puzzle.php
+		my-church\theme-framework\postType\blog\post-single.php
+		my-church\theme-framework\postType\blog\post-timeline.php
+		my-church\theme-framework\postType\portfolio\project-grid.php
+		my-church\theme-framework\postType\portfolio\project-puzzle.php
+		my-church\theme-framework\postType\portfolio\project-single.php
+		my-church\theme-framework\postType\posts-slider\slider-post.php
+		my-church\theme-framework\postType\posts-slider\slider-project.php
+		my-church\theme-framework\postType\profile\profile-horizontal.php
+		my-church\theme-framework\postType\profile\profile-single.php
+		my-church\theme-framework\postType\profile\profile-vertical.php
+		my-church\theme-framework\postType\quote\quote-grid.php
+		my-church\theme-framework\postType\quote\quote-slider.php
+		my-church\theme-framework\template\archive.php
+		my-church\theme-framework\template\footer.php
+		my-church\theme-framework\template\header-bot.php
+		my-church\theme-framework\template\header-mid.php
+		my-church\theme-framework\template\header-top.php
+		my-church\theme-framework\theme-functions.php
+		my-church\timetable\cmsmasters-framework\admin\js\plugin-options-toggle.js
+		my-church\timetable\cmsmasters-framework\admin\js\plugin-settings-toggle.js
+		my-church\timetable\cmsmasters-framework\admin\plugin-options.php
+		my-church\timetable\cmsmasters-framework\admin\plugin-settings.php
+		my-church\timetable\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\timetable\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\timetable\cmsmasters-framework\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\timetable\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\timetable\cmsmasters-framework\css\less\plugin-style.less
+		my-church\timetable\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\timetable\cmsmasters-framework\css\plugin-rtl.css
+		my-church\timetable\cmsmasters-framework\css\plugin-style.css
+		my-church\timetable\cmsmasters-framework\function\plugin-colors.php
+		my-church\timetable\cmsmasters-framework\function\plugin-fonts.php
+		my-church\timetable\cmsmasters-plugin-functions.php
+		my-church\tribe-events\cmsmasters-framework\admin\plugin-settings.php
+		my-church\tribe-events\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\tribe-events\cmsmasters-framework\css\less\plugin-style.less
+		my-church\tribe-events\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\tribe-events\cmsmasters-framework\css\plugin-rtl.css
+		my-church\tribe-events\cmsmasters-framework\css\plugin-style.css
+		my-church\tribe-events\cmsmasters-framework\function\plugin-colors.php
+		my-church\tribe-events\cmsmasters-framework\function\plugin-fonts.php
+		my-church\tribe-events\cmsmasters-plugin-functions.php
+		my-church\woocommerce\cmsmasters-framework\admin\plugin-options.php
+		my-church\woocommerce\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-functions.php
+		my-church\woocommerce\cmsmasters-framework\cmsmasters-c-c\cmsmasters-c-c-plugin-shortcodes.php
+		my-church\woocommerce\cmsmasters-framework\cmsmasters-c-c\js\cmsmasters-c-c-plugin-extend.js
+		my-church\woocommerce\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\woocommerce\cmsmasters-framework\css\less\plugin-style.less
+		my-church\woocommerce\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\woocommerce\cmsmasters-framework\css\plugin-rtl.css
+		my-church\woocommerce\cmsmasters-framework\css\plugin-style.css
+		my-church\woocommerce\cmsmasters-framework\function\plugin-colors.php
+		my-church\woocommerce\cmsmasters-framework\function\plugin-fonts.php
+		my-church\woocommerce\cmsmasters-framework\function\plugin-template-functions.php
+		my-church\woocommerce\cmsmasters-framework\js\jquery.plugin-script.js
+		my-church\woocommerce\cmsmasters-plugin-functions.php
+
+
+--------------------------------------
+Version 1.0.1: files operations:
+	
+  Theme Files edited:
+		my-church\readme.txt
+		my-church\style.css
+		my-church\theme-framework\css\less\style.less
+		my-church\timetable\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\timetable\cmsmasters-framework\css\less\plugin-style.less
+		my-church\timetable\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\timetable\cmsmasters-framework\css\plugin-style.css
+		my-church\tribe-events\cmsmasters-framework\css\less\plugin-adaptive.less
+		my-church\tribe-events\cmsmasters-framework\css\less\plugin-style.less
+		my-church\tribe-events\cmsmasters-framework\css\plugin-adaptive.css
+		my-church\tribe-events\cmsmasters-framework\css\plugin-style.css
+		my-church\woocommerce\cmsmasters-framework\css\less\plugin-style.less
+		my-church\woocommerce\cmsmasters-framework\css\plugin-style.css
+		my-church\woocommerce\content-single-product.php
+		my-church\woocommerce\single-product\product-image.php
+		my-church\woocommerce\single-product\product-thumbnails.php
+
+
+--------------------------------------
+Version 1.0: Release!
+
