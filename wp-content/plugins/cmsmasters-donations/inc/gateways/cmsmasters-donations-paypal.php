@@ -145,7 +145,7 @@ class Cmsmasters_Donations_PayPal extends Cmsmasters_Donations_Gateway {
 		
 		$paypal_args['cmd'] = '_xclick-subscriptions';
 		
-		$paypal_args['item_name'] = esc_attr__('New recurring donation', 'cmsmasters-donations') . ' &quot;' . get_the_title($donation_id) . '&quot;';
+		$paypal_args['item_name'] = esc_attr__('New recurring gift: ', 'cmsmasters-donations') . get_the_title($donation_id);
 		
 		$paypal_args['src'] = 1;
 		

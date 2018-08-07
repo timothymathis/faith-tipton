@@ -23,7 +23,7 @@ global $cmsmasters_donations;
 
 echo "<form action=\"{$action}\" method=\"post\" id=\"submit-donation-form\" class=\"cmsmasters_donations_form\" enctype=\"multipart/form-data\">
 	<div class=\"cmsmasters_donation_fields\">
-		<h2 class=\"cmsmasters_donation_form_title\">" . __('Donation details', 'cmsmasters-donations') . "</h2>";
+		<h2 class=\"cmsmasters_donation_form_title\">" . __('Gift details', 'cmsmasters-donations') . "</h2>";
 
 
 do_action('submit_donation_form_donation_fields_start');
@@ -51,7 +51,7 @@ echo "</div>
 
 
 if (!empty($donator_fields)) {
-	echo "<h2 class=\"cmsmasters_donation_form_title\">" . __('Donator details', 'cmsmasters-donations') . "</h2>";
+	echo "<h2 class=\"cmsmasters_donation_form_title\">" . __('Giver details', 'cmsmasters-donations') . "</h2>";
 	
 	
 	do_action('submit_donation_form_donator_fields_start');

@@ -32,7 +32,7 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 
 		self::$steps = (array) apply_filters('submit_donation_steps', array(
 			'submit' => array(
-				'name' => 		__('Submit Donation', 'cmsmasters-donations'),
+				'name' => 		__('Submit Gift', 'cmsmasters-donations'),
 				'view' => 		array(__CLASS__, 'submit'),
 				'handler' => 	array(__CLASS__, 'submit_handler'),
 				'priority' =>	1
@@ -77,11 +77,11 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 		self::$fields = array(
 			'donation' => array(
 				'donation_amount' => array(
-					'label' => 			__('Donation Amount', 'cmsmasters-donations'),
+					'label' => 			__('Gift Amount', 'cmsmasters-donations'),
 					'type' => 			'donation_amount',
 					'required' => 		true,
 					'options' => 		explode(',', str_replace(' ', '', get_option('cmsmasters_payment_amount', '5,10,20,50,100'))),
-					'placeholder' => 	__('or enter your own donation amount, e.g: 85', 'cmsmasters-donations'),
+					'placeholder' => 	__('or enter your own gift amount, e.g: 85', 'cmsmasters-donations'),
 					'validation' => 	'required, custom[number]',
 					'priority' => 		1
 				),
@@ -114,8 +114,8 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 					'priority' => 		3
 				),
 				'donation_campaign' => array(
-					'label' => 			__('Campaigns', 'cmsmasters-donations'),
-					'description' => 	__('Select the campaign you would like to contribute to', 'cmsmasters-donations'),
+					'label' => 			__('Offerings', 'cmsmasters-donations'),
+					'description' => 	__('Select the offering you would like to contribute to', 'cmsmasters-donations'),
 					'type' => 			'select',
 					'required' => 		((get_option('cmsmasters_payment_campaign') == 'required' || $campaign_id) ? true : false),
 					'options' => 		self::donation_campaigns(),
@@ -124,18 +124,18 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 					'priority' => 		4
 				),
 				'donation_message' => array(
-					'label' => 			__('Message', 'cmsmasters-donations'),
+					'label' => 			__('Special Instructions', 'cmsmasters-donations'),
 					'type' => 			'textarea',
 					'required' => 		((get_option('cmsmasters_donator_message') == 'required') ? true : false),
-					'placeholder' => 	__('Your custom message text...', 'cmsmasters-donations'),
+					'placeholder' => 	__('Special instructions for this gift...', 'cmsmasters-donations'),
 					'validation' => 	((get_option('cmsmasters_donator_message') == 'required') ? 'required' : ''),
 					'priority' => 		5
 				),
 				'anonymous_donation' => array(
-					'label' => 			__('Anonymous donation?', 'cmsmasters-donations'),
+					'label' => 			__('Anonymous gift?', 'cmsmasters-donations'),
 					'type' => 			'checkbox',
 					'required' => 		false,
-					'description' => 	__('Check this box to hide your personal info in our donators list', 'cmsmasters-donations'),
+					'description' => 	__('Check this box to make this gift anonymous', 'cmsmasters-donations'),
 					'value' => 			'false',
 					'validation' => 	'',
 					'priority' => 		6
@@ -391,7 +391,7 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 			'donation_fields' => 		self::get_fields('donation'),
 			'donator_fields' => 		self::get_fields('donator'),
 			'confirm_donation' => 		get_option('cmsmasters_confirm_donation'),
-			'submit_button_text' => 	((get_option('cmsmasters_confirm_donation') == 1) ? __('Confirm donation', 'cmsmasters-donations') : __('Submit donation', 'cmsmasters-donations'))
+			'submit_button_text' => 	((get_option('cmsmasters_confirm_donation') == 1) ? __('Confirm Gift', 'cmsmasters-donations') : __('Submit Gift', 'cmsmasters-donations'))
 		) );
 
 
@@ -471,8 +471,8 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 
 
 			echo "<form method=\"post\" id=\"donation_preview\">
-				<input type=\"submit\" name=\"edit_donation\" class=\"button\" value=\"" . __('Edit donation', 'cmsmasters-donations') . "\" />
-				<input type=\"submit\" name=\"continue\" id=\"donation_preview_submit_button\" class=\"button\" value=\"" . apply_filters('submit_donation_step_preview_submit_text', __('Submit Donation', 'cmsmasters-donations')) . "\" />
+				<input type=\"submit\" name=\"edit_donation\" class=\"button\" value=\"" . __('Edit Gift', 'cmsmasters-donations') . "\" />
+				<input type=\"submit\" name=\"continue\" id=\"donation_preview_submit_button\" class=\"button\" value=\"" . apply_filters('submit_donation_step_preview_submit_text', __('Submit Gift', 'cmsmasters-donations')) . "\" />
 				<input type=\"hidden\" name=\"donation_id\" value=\"" . esc_attr(self::$donation_id) . "\" />
 				<input type=\"hidden\" name=\"step\" value=\"" . esc_attr(self::$step) . "\" />
 				<input type=\"hidden\" name=\"cmsmasters_donations_form\" value=\"" . self::$form_name . "\" />
@@ -539,7 +539,7 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 
 	protected static function save_donation($post_content = '', $status = 'preview') {
 		$donation_data = array(
-			'post_title' => 		__('New Donation', 'cmsmasters-donations'),
+			'post_title' => 		__('New Gift', 'cmsmasters-donations'),
 			'post_excerpt' => 		$post_content,
 			'post_status' => 		$status,
 			'post_type' => 			'donation'
@@ -558,7 +558,7 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 
 		$donation_title = array(
 			'ID' => 			self::$donation_id,
-			'post_title' => 	__('Donation #', 'cmsmasters-donations') . self::$donation_id
+			'post_title' => 	__('Gift #', 'cmsmasters-donations') . self::$donation_id
 		);
 
 
@@ -743,7 +743,7 @@ class Cmsmasters_Donations_Form_Submit_Donation extends Cmsmasters_Donations_For
 			$options = array();
 		} else {
 			$options = array(
-				'' => __('No specific campaign', 'cmsmasters-donations')
+				'' => __('No specific offering', 'cmsmasters-donations')
 			);
 		}
 

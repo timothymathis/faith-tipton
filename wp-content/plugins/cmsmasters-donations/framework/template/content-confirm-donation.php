@@ -33,7 +33,7 @@ echo '<div class="donation_confirm">' .
 		
 		if (get_the_donation_campaign()) {
 			echo '<div class="donation_confirm_info_item donation_confirm_campaign">' . 
-				'<span class="donation_confirm_info_title">' . esc_html__('Campaign', 'cmsmasters-donations') . '</span>' . 
+				'<span class="donation_confirm_info_title">' . esc_html__('Offering', 'cmsmasters-donations') . '</span>' . 
 				'<span class="donation_confirm_info_value">' . get_the_donation_campaign() . '</span>' . 
 			'</div>';
 		}
@@ -44,7 +44,7 @@ echo '<div class="donation_confirm">' .
 		'</div>' . 
 		
 		'<div class="donation_confirm_info_item donation_confirm_donator">' . 
-			'<span class="donation_confirm_info_title">' . esc_html__('Donator', 'cmsmasters-donations') . '</span>' . 
+			'<span class="donation_confirm_info_title">' . esc_html__('Giver', 'cmsmasters-donations') . '</span>' . 
 			'<span class="donation_confirm_info_value">' . 
 				((get_the_donator_meta('website', null, true)) ? '<a href="' . get_the_donator_meta('website', null, true) . '" itemprop="name">' : '') . 
 				get_the_donator_meta('firstname') . ' ' . get_the_donator_meta('lastname') . 
@@ -56,12 +56,12 @@ echo '<div class="donation_confirm">' .
 	
 	
 	if (is_anonymous_donation($post)) {
-		echo '<p class="donation_confirm_anonymous">' . esc_attr__('This donation is anonymous', 'cmsmasters-donations') . '</p>';
+		echo '<p class="donation_confirm_anonymous">' . esc_attr__('This gift is anonymous', 'cmsmasters-donations') . '</p>';
 	}
 	
 	
 	if (get_the_excerpt() != '') {
-		echo '<h4 class="donation_confirm_cont_title">' . apply_filters('the_donation_message_title', esc_attr__("Donator message", 'cmsmasters-donations')) . '</h4>';
+		echo '<h4 class="donation_confirm_cont_title">' . apply_filters('the_donation_message_title', esc_attr__("Special instructions", 'cmsmasters-donations')) . '</h4>';
 		
 		echo '<div class="donation_confirm_cont">' . 
 			apply_filters('the_donation_message', get_the_excerpt()) . 
