@@ -3,10 +3,10 @@
  * @package 	WordPress
  * @subpackage 	My Church
  * @version		1.0.2
- * 
+ *
  * Main Theme Functions File
  * Created by CMSMasters
- * 
+ *
  */
 
 
@@ -15,20 +15,20 @@
 // Theme Settings System Fonts List
 if (!function_exists('my_church_system_fonts_list')) {
 	function my_church_system_fonts_list() {
-		$fonts = array( 
-			"Arial, Helvetica, 'Nimbus Sans L', sans-serif" => 'Arial', 
-			"Calibri, 'AppleGothic', 'MgOpen Modata', sans-serif" => 'Calibri', 
-			"'Trebuchet MS', Helvetica, Garuda, sans-serif" => 'Trebuchet MS', 
-			"'Comic Sans MS', Monaco, 'TSCu_Comic', cursive" => 'Comic Sans MS', 
-			"Georgia, Times, 'Century Schoolbook L', serif" => 'Georgia', 
-			"Verdana, Geneva, 'DejaVu Sans', sans-serif" => 'Verdana', 
-			"Tahoma, Geneva, Kalimati, sans-serif" => 'Tahoma', 
-			"'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif" => 'Lucida Sans', 
-			"'Times New Roman', Times, 'Nimbus Roman No9 L', serif" => 'Times New Roman', 
-			"'Courier New', Courier, 'Nimbus Mono L', monospace" => 'Courier New', 
+		$fonts = array(
+			"Arial, Helvetica, 'Nimbus Sans L', sans-serif" => 'Arial',
+			"Calibri, 'AppleGothic', 'MgOpen Modata', sans-serif" => 'Calibri',
+			"'Trebuchet MS', Helvetica, Garuda, sans-serif" => 'Trebuchet MS',
+			"'Comic Sans MS', Monaco, 'TSCu_Comic', cursive" => 'Comic Sans MS',
+			"Georgia, Times, 'Century Schoolbook L', serif" => 'Georgia',
+			"Verdana, Geneva, 'DejaVu Sans', sans-serif" => 'Verdana',
+			"Tahoma, Geneva, Kalimati, sans-serif" => 'Tahoma',
+			"'Lucida Sans Unicode', 'Lucida Grande', Garuda, sans-serif" => 'Lucida Sans',
+			"'Times New Roman', Times, 'Nimbus Roman No9 L', serif" => 'Times New Roman',
+			"'Courier New', Courier, 'Nimbus Mono L', monospace" => 'Courier New',
 		);
-		
-		
+
+
 		return $fonts;
 	}
 }
@@ -38,38 +38,38 @@ if (!function_exists('my_church_system_fonts_list')) {
 // Theme Settings Google Fonts List
 if (!function_exists('my_church_get_google_fonts_list')) {
 	function my_church_get_google_fonts_list() {
-		$fonts = array( 
-			'' => esc_html__('None', 'my-church'), 
-			'Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic' => 'Roboto', 
-			'Roboto+Condensed:400,400italic,700,700italic' => 'Roboto Condensed', 
-			'Open+Sans:300,300italic,400,400italic,700,700italic' => 'Open Sans', 
-			'Open+Sans+Condensed:300,300italic,700' => 'Open Sans Condensed', 
-			'Droid+Sans:400,700' => 'Droid Sans', 
-			'Droid+Serif:400,400italic,700,700italic' => 'Droid Serif', 
-			'PT+Sans:400,400italic,700,700italic' => 'PT Sans', 
-			'PT+Sans+Caption:400,700' => 'PT Sans Caption', 
-			'PT+Sans+Narrow:400,700' => 'PT Sans Narrow', 
-			'PT+Serif:400,400italic,700,700italic' => 'PT Serif', 
-			'Ubuntu:400,400italic,700,700italic' => 'Ubuntu', 
-			'Ubuntu+Condensed' => 'Ubuntu Condensed', 
-			'Headland+One' => 'Headland One', 
-			'Source+Sans+Pro:300,300italic,400,400italic,700,700italic' => 'Source Sans Pro', 
-			'Lato:400,400italic,700,700italic' => 'Lato', 
-			'Cuprum:400,400italic,700,700italic' => 'Cuprum', 
-			'Oswald:300,400,700' => 'Oswald', 
-			'Yanone+Kaffeesatz:300,400,700' => 'Yanone Kaffeesatz', 
-			'Lobster' => 'Lobster', 
-			'Lobster+Two:400,400italic,700,700italic' => 'Lobster Two', 
-			'Questrial' => 'Questrial', 
-			'Raleway:300,400,500,600,700' => 'Raleway', 
-			'Dosis:300,400,500,700' => 'Dosis', 
-			'Cutive+Mono' => 'Cutive Mono', 
-			'Quicksand:300,400,700' => 'Quicksand', 
-			'Montserrat:400,700' => 'Montserrat', 
-			'Cookie' => 'Cookie', 
+		$fonts = array(
+			'' => esc_html__('None', 'my-church'),
+			'Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic' => 'Roboto',
+			'Roboto+Condensed:400,400italic,700,700italic' => 'Roboto Condensed',
+			'Open+Sans:300,300italic,400,400italic,700,700italic' => 'Open Sans',
+			'Open+Sans+Condensed:300,300italic,700' => 'Open Sans Condensed',
+			'Droid+Sans:400,700' => 'Droid Sans',
+			'Droid+Serif:400,400italic,700,700italic' => 'Droid Serif',
+			'PT+Sans:400,400italic,700,700italic' => 'PT Sans',
+			'PT+Sans+Caption:400,700' => 'PT Sans Caption',
+			'PT+Sans+Narrow:400,700' => 'PT Sans Narrow',
+			'PT+Serif:400,400italic,700,700italic' => 'PT Serif',
+			'Ubuntu:400,400italic,700,700italic' => 'Ubuntu',
+			'Ubuntu+Condensed' => 'Ubuntu Condensed',
+			'Headland+One' => 'Headland One',
+			'Source+Sans+Pro:300,300italic,400,400italic,700,700italic' => 'Source Sans Pro',
+			'Lato:400,400italic,700,700italic' => 'Lato',
+			'Cuprum:400,400italic,700,700italic' => 'Cuprum',
+			'Oswald:300,400,700' => 'Oswald',
+			'Yanone+Kaffeesatz:300,400,700' => 'Yanone Kaffeesatz',
+			'Lobster' => 'Lobster',
+			'Lobster+Two:400,400italic,700,700italic' => 'Lobster Two',
+			'Questrial' => 'Questrial',
+			'Raleway:300,400,500,600,700' => 'Raleway',
+			'Dosis:300,400,500,700' => 'Dosis',
+			'Cutive+Mono' => 'Cutive Mono',
+			'Quicksand:300,400,700' => 'Quicksand',
+			'Montserrat:400,700' => 'Montserrat',
+			'Cookie' => 'Cookie',
 		);
-		
-		
+
+
 		return apply_filters('my_church_google_fonts_list_filter', $fonts);
 	}
 }
@@ -79,14 +79,14 @@ if (!function_exists('my_church_get_google_fonts_list')) {
 // Theme Settings Text Decorations List
 if (!function_exists('my_church_text_decoration_list')) {
 	function my_church_text_decoration_list() {
-		$list = array( 
-			'none' => esc_html__('none', 'my-church'), 
-			'underline' => esc_html__('underline', 'my-church'), 
-			'overline' => esc_html__('overline', 'my-church'), 
-			'line-through' => esc_html__('line-through', 'my-church'), 
+		$list = array(
+			'none' => esc_html__('none', 'my-church'),
+			'underline' => esc_html__('underline', 'my-church'),
+			'overline' => esc_html__('overline', 'my-church'),
+			'line-through' => esc_html__('line-through', 'my-church'),
 		);
-		
-		
+
+
 		return $list;
 	}
 }
@@ -96,13 +96,13 @@ if (!function_exists('my_church_text_decoration_list')) {
 // Theme Settings Custom Color Schemes
 if (!function_exists('my_church_custom_color_schemes_list')) {
 	function my_church_custom_color_schemes_list() {
-		$list = array( 
-			'first' => esc_html__('Custom 1', 'my-church'), 
-			'second' => esc_html__('Custom 2', 'my-church'), 
-			'third' => esc_html__('Custom 3', 'my-church') 
+		$list = array(
+			'first' => esc_html__('Custom 1', 'my-church'),
+			'second' => esc_html__('Custom 2', 'my-church'),
+			'third' => esc_html__('Custom 3', 'my-church')
 		);
-		
-		
+
+
 		return apply_filters('my_church_custom_color_schemes_list_filter', $list);
 	}
 }
@@ -115,28 +115,28 @@ if (!function_exists('my_church_custom_color_schemes_list')) {
 if (!function_exists('my_church_locate_template')) {
 	function my_church_locate_template($template_names, $require_once = true, $load = true) {
 		$located = '';
-		
-		
+
+
 		foreach ((array) $template_names as $template_name) {
 			if (!$template_name) {
 				continue;
 			}
-			
-			
+
+
 			if (file_exists(get_stylesheet_directory() . '/' . $template_name)) {
 				$located = get_stylesheet_directory() . '/' . $template_name;
-				
-				
+
+
 				break;
 			} elseif (file_exists(get_template_directory() . '/' . $template_name)) {
 				$located = get_template_directory() . '/' . $template_name;
-				
-				
+
+
 				break;
 			}
 		}
-		
-		
+
+
 		if ($load && $located != '') {
 			if ($require_once) {
 				require_once($located);
@@ -144,8 +144,8 @@ if (!function_exists('my_church_locate_template')) {
 				require($located);
 			}
 		}
-		
-		
+
+
 		return $located;
 	}
 }
@@ -225,13 +225,13 @@ if (!defined('FS_METHOD')) {
 // Theme Settings All Theme Styles
 if (!function_exists('my_church_all_theme_styles')) {
 	function my_church_all_theme_styles() {
-		$out = array( 
-			'Default|', 
-			'Theme Style 1|1', 
-			'Theme Style 2|2' 
+		$out = array(
+			'Default|',
+			'Theme Style 1|1',
+			'Theme Style 2|2'
 		);
-		
-		
+
+
 		return $out;
 	}
 }
@@ -241,18 +241,18 @@ if (!function_exists('my_church_all_theme_styles')) {
 // Theme Settings All Color Schemes List
 if (!function_exists('my_church_all_color_schemes_list')) {
 	function my_church_all_color_schemes_list() {
-		$list = array( 
-			'default' => 		esc_html__('Default', 'my-church'), 
-			'header' => 		esc_html__('Header', 'my-church'), 
-			'navigation' => 	esc_html__('Navigation', 'my-church'), 
-			'header_top' => 	esc_html__('Header Top', 'my-church'), 
-			'footer' => 		esc_html__('Footer', 'my-church') 
+		$list = array(
+			'default' => 		esc_html__('Default', 'my-church'),
+			'header' => 		esc_html__('Header', 'my-church'),
+			'navigation' => 	esc_html__('Navigation', 'my-church'),
+			'header_top' => 	esc_html__('Header Top', 'my-church'),
+			'footer' => 		esc_html__('Footer', 'my-church')
 		);
-		
-		
+
+
 		$out = array_merge($list, my_church_custom_color_schemes_list());
-		
-		
+
+
 		return apply_filters('cmsmasters_all_color_schemes_list_filter', $out);
 	}
 }
@@ -346,7 +346,7 @@ if (CMSMASTERS_TIMETABLE) {
 // LearnPress functions
 if (CMSMASTERS_LEARNPRESS) {
 	require_once(get_template_directory() . '/learnpress/cmsmasters-framework/theme-style' . CMSMASTERS_THEME_STYLE . '/cmsmasters-plugin-functions.php');
-	
+
 	add_filter('learn_press_template_path', function() {return 'learnpress/cmsmasters-framework/theme-style' . CMSMASTERS_THEME_STYLE . '/templates';});
 }
 
@@ -381,14 +381,14 @@ if (!function_exists('my_church_theme_activation')) {
 	function my_church_theme_activation() {
 		if (get_option('cmsmasters_active_theme') != 'my-church') {
 			add_option('cmsmasters_active_theme', 'my-church', '', 'yes');
-			
-			
+
+
 			my_church_add_global_options();
-			
-			
+
+
 			my_church_add_global_icons();
-			
-			
+
+
 			wp_redirect(esc_url(admin_url('admin.php?page=cmsmasters-settings&upgraded=true')));
 		}
 	}
@@ -424,10 +424,10 @@ if (!function_exists('my_church_plugin_activation_regenerate')) {
 		if (!get_option('cmsmasters_plugin_activation')) {
 			add_option('cmsmasters_plugin_activation', 'false');
 		}
-		
+
 		if (get_option('cmsmasters_plugin_activation') != 'false') {
 			my_church_regenerate_styles();
-			
+
 			update_option('cmsmasters_plugin_activation', 'false');
 		}
 	}
@@ -435,3 +435,11 @@ if (!function_exists('my_church_plugin_activation_regenerate')) {
 
 add_action('init', 'my_church_plugin_activation_regenerate');
 
+function additional_custom_styles() {
+
+    /*Enqueue The Styles*/
+    wp_enqueue_style( 'my-church', get_template_directory_uri() . '/custom.css' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'additional_custom_styles' );

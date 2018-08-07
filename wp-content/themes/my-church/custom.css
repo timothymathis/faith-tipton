@@ -1,0 +1,101 @@
+/*-- Ministries page --*/
+
+.ministry-section {
+  padding-top: 50px;
+}
+
+.ministry-section h1,
+.ministry-section p {
+  color: #23272f;
+}
+
+.ministry-section-dark-bg h1,
+.ministry-section-dark-bg p {
+  color: #ffffff;
+}
+
+/* Medium screens and up */
+@media screen and (min-width: 769px) {
+  .ministry-section {
+    min-height: 400px;
+  }
+}
+
+/*-- New to Faith page --*/
+
+/* Heading */
+.schedule-box h3 {
+  font-size: 2rem;
+}
+
+.schedule-box h5 {
+  line-height: .5rem;
+}
+
+/* Medium screens and up */
+@media screen and (min-width: 769px) {
+  .schedule-box {
+      display: flex;
+      align-items: center;
+      min-height: 34rem;
+  }
+
+  /* Let flexbox vertically center the content */
+  .schedule-box > div {
+    height: auto !important;
+  }
+}
+
+/* Text on a dark-colored background */
+.text-on-dark-bg,
+.text-on-dark-bg p  {
+  color: rgb(255, 255, 255, .9);
+}
+.text-on-dark-bg h3 {
+  color: rgb(255, 255, 255);
+}
+.text-on-dark-bg h5 {
+  color: rgb(255, 255, 255, .6);
+}
+
+/* Text on a light-colored background */
+.text-on-light-bg,
+.text-on-light-bg p  {
+  color: rgba(8, 29, 34, 0.9);
+}
+.text-on-light-bg h3 {
+  color: rgb(255, 255, 255);
+}
+.text-on-light-bg h5 {
+  color: rgb(255, 255, 255, .6);
+}
+
+.featured-text {
+  color: #23272f;
+  font-size: 32px;
+  line-height: 50px;
+  margin: 50px 0;
+}
+
+.map-full-width {
+  margin: 0;
+}
+
+.hide-for-small {
+  display: none !important;
+}
+
+/* Medium screens and up */
+@media screen and (min-width: 769px) {
+  .hide-for-small{
+    display: block !important;
+  }
+}
+
+/*-- My Church theme overrides --*/
+
+/* Navigation link for current page */
+ul.navigation > li.menu-item.current-menu-item > a,
+ul.navigation > li.menu-item.current-menu-ancestor > a {
+  color: #01babc;
+}
