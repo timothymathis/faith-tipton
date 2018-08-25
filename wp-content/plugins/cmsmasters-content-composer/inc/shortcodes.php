@@ -336,10 +336,10 @@ public function cmsmasters_row($atts, $content = null) {
 		
 		if ($data_bg_img != '') {
 			$new_bg_img = explode('|', $data_bg_img);
+			$bg_img_id = $new_bg_img[0];
+			$bg_img_size = $new_bg_img[2];
 			
-			
-			$new_bg_src = wp_get_attachment_image_src($new_bg_img[0], 'full');
-			
+			$new_bg_src = wp_get_attachment_image_src($bg_img_id, $bg_img_size);
 			
 			$out_style .= "\n\t" . 'background-image: url(' . esc_url($new_bg_src[0]) . '); ' . 
 			"\n\t" . 'background-position: ' . esc_attr($data_bg_position) . '; ' . 
@@ -1515,9 +1515,10 @@ public function cmsmasters_featured_block($atts, $content = null) {
 		
 		if ($bg_img != '') {
 			$new_bg_img = explode('|', $bg_img);
+			$bg_img_id = $new_bg_img[0];
+			$bg_img_size = $new_bg_img[2];
 			
-			
-			$new_bg_src = wp_get_attachment_image_src($new_bg_img[0], 'full');
+			$new_bg_src = wp_get_attachment_image_src($bg_img_id, $bg_img_size);
 			
 			
 			$shortcode_styles .= "\n\t" . 'background-image: url(' . esc_url($new_bg_src[0]) . '); ' . 
