@@ -95,7 +95,6 @@ $cmsmasters_sermon_more_posts = get_post_meta(get_the_ID(), 'cmsmasters_sermon_m
 	
 	my_church_thumb(get_the_ID(), 'post-thumbnail', false, true);
 	
-	
 	if (!post_password_required()) {
 		if ($cmsmasters_sermon_pdf_link != '' || $cmsmasters_sermon_download_link != '' || $cmsmasters_sermon_audio_links != '' || $cmsmasters_sermon_video_link != '') {
 			echo '<div class="cmsmasters_sermon_media">';
@@ -110,18 +109,24 @@ $cmsmasters_sermon_more_posts = get_post_meta(get_the_ID(), 'cmsmasters_sermon_m
 				
 				
 				if (!empty($cmsmasters_sermon_audio_links) && sizeof($cmsmasters_sermon_audio_links) > 0) {
-					
-					echo '<a href="#" class="cmsmasters_sermon_media_item cmsmasters_sermon_audio cmsmasters_theme_icon_sermon_audio">' . 
-					'<span class="cmsmasters_sermon_media_title">' . esc_html__('Listen', 'my-church') . '</span>' . 
-					'</a>';
 						
 						$attrs = array(
 							'preload' => 'none'
 						);
 						
-						
+						$hasAtleastOneLink = false;
 						foreach ($cmsmasters_sermon_audio_links as $cmsmasters_sermon_audio_link_url) {
+							if($cmsmasters_sermon_audio_link_url != '') {
+								$hasAtleastOneLink = true;
+							}
 							$attrs[substr(strrchr($cmsmasters_sermon_audio_link_url, '.'), 1)] = $cmsmasters_sermon_audio_link_url;
+						}
+
+						// If at least one of the links is not empty, show the Listen button
+						if($hasAtleastOneLink) {
+							echo '<a href="#" class="cmsmasters_sermon_media_item cmsmasters_sermon_audio cmsmasters_theme_icon_sermon_audio">' . 
+							'<span class="cmsmasters_sermon_media_title">' . esc_html__('Listen', 'my-church') . '</span>' . 
+							'</a>';
 						}
 						
 						
