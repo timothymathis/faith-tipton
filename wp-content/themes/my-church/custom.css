@@ -101,6 +101,23 @@
   }
 }
 
+/*-- Staff pages --*/
+
+/* Hide "Profile details" sidebar */
+.single-profile .profile_sidebar {
+  display: none;
+} 
+
+.cmsmasters_open_profile .profile_content.with_sidebar {
+  width: 100%;
+  float: none;
+}
+
+/* Hide comment box */
+.single-profile #respond {
+  display: none;
+}
+
 /*-- My Church theme overrides --*/
 
 /* Navigation link for current page */

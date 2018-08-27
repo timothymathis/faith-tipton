@@ -89,7 +89,7 @@ function my_church_get_profile_category($cmsmasters_id, $taxonomy, $template_typ
 		} elseif ($template_type == 'post') {
 			$cmsmasters_option = my_church_get_global_options();
 			
-			
+			/*
 			if ($cmsmasters_option['my-church' . '_profile_post_cat']) {
 				$out .= '<div class="profile_details_item">' . 
 					'<div class="profile_details_item_title">' . esc_html__('Categories', 'my-church') . ':' . '</div>' . 
@@ -100,6 +100,7 @@ function my_church_get_profile_category($cmsmasters_id, $taxonomy, $template_typ
 					'</div>' . 
 				'</div>';
 			}
+			*/
 		}
 	}
 	
@@ -123,6 +124,7 @@ function my_church_get_profile_likes($template_type = 'page', $show = true) {
 	} elseif ($template_type == 'post') {
 		$cmsmasters_option = my_church_get_global_options();
 		
+		/*
 		if ($cmsmasters_option['my-church' . '_profile_post_like']) {
 			$out = '<div class="profile_details_item">' . 
 				'<div class="profile_details_item_title">' . esc_html__('Likes', 'my-church') . ':' . '</div>' . 
@@ -131,6 +133,7 @@ function my_church_get_profile_likes($template_type = 'page', $show = true) {
 				'</div>' . 
 			'</div>';
 		}
+		*/
 	}
 	
 	
@@ -154,6 +157,7 @@ function my_church_get_profile_comments($template_type = 'page', $show = true) {
 		} elseif ($template_type == 'post') {
 			$cmsmasters_option = my_church_get_global_options();
 			
+			/*
 			if ($cmsmasters_option['my-church' . '_profile_post_comment']) {
 				$out .= '<div class="profile_details_item">' . 
 					'<div class="profile_details_item_title">' . esc_html__('Comments', 'my-church') . ':' . '</div>' . 
@@ -162,6 +166,7 @@ function my_church_get_profile_comments($template_type = 'page', $show = true) {
 					'</div>' . 
 				'</div>';
 			}
+			*/
 		}
 	}
 	
