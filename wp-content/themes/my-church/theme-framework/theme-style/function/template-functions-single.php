@@ -24,9 +24,9 @@ function my_church_prev_next_posts($order_cat = false) {
 		echo '<aside class="post_nav">';
 		
 		
-		previous_post_link('<span class="cmsmasters_prev_post"><span class="post_nav_sub">' . esc_html__('Previous', 'my-church') . '<span class="post_nav_type"> ' . esc_html($cmsmasters_post_type_name) . ' </span>' . esc_html__('Link', 'my-church') . '</span>%link<span class="cmsmasters_prev_arrow"><span></span></span></span>', '%title', $order_cat);
+		previous_post_link('<span class="cmsmasters_prev_post"><span class="post_nav_sub">' . esc_html__('Previous', 'my-church') . '</span>%link<span class="cmsmasters_prev_arrow"><span></span></span></span>', '%title', $order_cat);
 		
-		next_post_link('<span class="cmsmasters_next_post"><span class="post_nav_sub">' . esc_html__('Next', 'my-church') . '<span class="post_nav_type"> ' . esc_html($cmsmasters_post_type_name) . ' </span>' . esc_html__('Link', 'my-church') . '</span>%link<span class="cmsmasters_next_arrow"><span></span></span></span>', '%title', $order_cat);
+		next_post_link('<span class="cmsmasters_next_post"><span class="post_nav_sub">' . esc_html__('Next', 'my-church') . '</span>%link<span class="cmsmasters_next_arrow"><span></span></span></span>', '%title', $order_cat);
 		
 		
 		echo '</aside>';
