@@ -7,6 +7,46 @@
   color: #ffec83;
 }
 
+/* Utility classes */
+
+/* Text on a dark-colored background */
+.text-on-dark-bg,
+.text-on-dark-bg p  {
+  color: rgb(255, 255, 255, .9);
+}
+.text-on-dark-bg h3 {
+  color: rgb(255, 255, 255);
+}
+.text-on-dark-bg h5 {
+  color: rgb(255, 255, 255, .6);
+}
+
+/* Text on a light-colored background */
+.text-on-light-bg,
+.text-on-light-bg p  {
+  color: rgba(8, 29, 34, 0.9);
+}
+.text-on-light-bg h3 {
+  color: rgb(255, 255, 255);
+}
+.text-on-light-bg h5 {
+  color: rgb(255, 255, 255, .6);
+}
+
+/* Small screens */
+@media screen and (max-width: 769px) {
+  .hide-for-small-screens {
+    display: none;
+  }
+}
+
+/*-- Home page  --*/
+.visitor-section-main-block .featured_block_inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 /*-- Ministries page --*/
 
 .ministry-section {
@@ -21,6 +61,10 @@
 .ministry-section-dark-bg h1,
 .ministry-section-dark-bg p {
   color: #ffffff;
+}
+
+.section-anchor p {
+  padding: 0;
 }
 
 /* Medium screens and up */
@@ -53,30 +97,6 @@
   .schedule-box > div {
     height: auto !important;
   }
-}
-
-/* Text on a dark-colored background */
-.text-on-dark-bg,
-.text-on-dark-bg p  {
-  color: rgb(255, 255, 255, .9);
-}
-.text-on-dark-bg h3 {
-  color: rgb(255, 255, 255);
-}
-.text-on-dark-bg h5 {
-  color: rgb(255, 255, 255, .6);
-}
-
-/* Text on a light-colored background */
-.text-on-light-bg,
-.text-on-light-bg p  {
-  color: rgba(8, 29, 34, 0.9);
-}
-.text-on-light-bg h3 {
-  color: rgb(255, 255, 255);
-}
-.text-on-light-bg h5 {
-  color: rgb(255, 255, 255, .6);
 }
 
 .featured-text {
@@ -147,6 +167,31 @@ ul.navigation > li.menu-item.current-menu-ancestor > a {
 .home .tribe-events-list-widget .cmsmasters_events_more {
   text-align: left !important;
 }
+
+.cmsmasters_event_big_date {
+  width: 25%;
+}
+
+.tribe-events-list-widget-content-wrap {
+  width: 75%;
+}
+
+.cmsmasters_event_big_day {
+  color: #d4d4d4;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .home .cmsmasters_event_big_date,
+  .home .tribe-events-list-widget-content-wrap,
+  .home .tribe-events-list-widget .cmsmasters_widget_event_info .duration,
+  .home .tribe-events-list-widget .cmsmasters_events_more {
+      width: 100%;
+      text-align: center !important;
+  }
+}
+
+/* Footer */
 
 #bottom {
   z-index: 1;
