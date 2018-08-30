@@ -552,7 +552,7 @@ function my_church_theme_heading_styles() {
 		
 		
 		if (is_numeric($options_img[0])) {
-			$options_img_url = wp_get_attachment_image_src((int) $options_img[0], 'full');
+			$options_img_url = wp_get_attachment_image_src((int) $options_img[0], 'large');
 		}
 		
 		
