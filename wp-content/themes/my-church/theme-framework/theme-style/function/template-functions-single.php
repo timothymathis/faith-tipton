@@ -191,13 +191,21 @@ function my_church_related($tag = 'h3', $title = '', $no_title = '', $box_type =
 									my_church_thumb(get_the_ID(), 'cmsmasters-project-grid-thumb', true, false, true, false, true, true, false, false, false, 'cmsmasters_theme_icon_image');
 									
 									echo "<div class=\"cmsmasters_single_slider_item_inner\">
-										<abbr class=\"published\" title=\"" . esc_attr(get_the_date()) . "\">" . esc_html(get_the_date()) . "</abbr>
 										<h5 class=\"cmsmasters_single_slider_item_title\">
 											<a href=\"" . esc_url(get_permalink()) . "\">" . cmsmasters_title(get_the_ID(), false) . "</a>
 										</h5>
 									</div>
 								</div>
 							</div>";
+							// Removed published date in above code
+							// 		echo "<div class=\"cmsmasters_single_slider_item_inner\">
+							// 			<abbr class=\"published\" title=\"" . esc_attr(get_the_date()) . "\">" . esc_html(get_the_date()) . "</abbr>
+							// 			<h5 class=\"cmsmasters_single_slider_item_title\">
+							// 				<a href=\"" . esc_url(get_permalink()) . "\">" . cmsmasters_title(get_the_ID(), false) . "</a>
+							// 			</h5>
+							// 		</div>
+							// 	</div>
+							// </div>";
 						endwhile;
 						
 					echo "</div>

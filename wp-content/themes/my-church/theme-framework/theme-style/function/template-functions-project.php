@@ -92,7 +92,7 @@ function my_church_get_project_category($cmsmasters_id, $taxonomy, $template_typ
 		} elseif ($template_type == 'post') {
 			$cmsmasters_option = my_church_get_global_options();
 			
-			
+			/*
 			if ($cmsmasters_option['my-church' . '_portfolio_project_cat']) {
 				$out .= '<div class="project_details_item">' . 
 					'<div class="project_details_item_title">' . esc_html__('Categories', 'my-church') . ':' . '</div>' . 
@@ -103,6 +103,7 @@ function my_church_get_project_category($cmsmasters_id, $taxonomy, $template_typ
 					'</div>' . 
 				'</div>';
 			}
+			*/
 		}
 	}
 	
@@ -125,7 +126,7 @@ function my_church_get_project_likes($template_type = 'page', $show = true) {
 		$out = cmsmasters_like('cmsmasters_project_likes');
 	} elseif ($template_type == 'post') {
 		$cmsmasters_option = my_church_get_global_options();
-		
+		/*
 		if ($cmsmasters_option['my-church' . '_portfolio_project_like']) {
 			$out = '<div class="project_details_item">' . 
 				'<div class="project_details_item_title">' . esc_html__('Likes', 'my-church') . ':' . '</div>' . 
@@ -134,6 +135,7 @@ function my_church_get_project_likes($template_type = 'page', $show = true) {
 				'</div>' . 
 			'</div>';
 		}
+		*/
 	}
 	
 	
@@ -150,7 +152,7 @@ function my_church_get_project_likes($template_type = 'page', $show = true) {
 function my_church_get_project_comments($template_type = 'page', $show = true) {
 	$out = '';
 	
-	
+	/*
 	if (comments_open()) {
 		if ($template_type == 'page') {
 			$out = my_church_get_comments('cmsmasters_project_comments');
@@ -167,13 +169,14 @@ function my_church_get_project_comments($template_type = 'page', $show = true) {
 			}
 		}
 	}
+	*/
 	
 	
 	if ($show) {
 		echo $out;
 	} else {
 		return $out;
-	}
+	} 
 }
 
 
@@ -191,7 +194,7 @@ function my_church_get_project_date($template_type = 'page', $show = true) {
 		$cmsmasters_option = my_church_get_global_options();
 		
 		$out = '';
-		
+		/*
 		if ($cmsmasters_option['my-church' . '_portfolio_project_date']) {
 			$out .= '<div class="project_details_item">' . 
 				'<div class="project_details_item_title">' . esc_html__('Date', 'my-church') . ':' . '</div>' . 
@@ -205,6 +208,7 @@ function my_church_get_project_date($template_type = 'page', $show = true) {
 				'</div>' . 
 			'</div>';
 		}
+		*/
 	}
 	
 	
@@ -228,7 +232,7 @@ function my_church_get_project_author($template_type = 'page', $show = true) {
 		$cmsmasters_option = my_church_get_global_options();
 		
 		$out = '';
-		
+		/*
 		if ($cmsmasters_option['my-church' . '_portfolio_project_author']) {
 			$out .= '<div class="project_details_item">' . 
 				'<div class="project_details_item_title">' . esc_html__('Author', 'my-church') . ':' . '</div>' . 
@@ -237,6 +241,7 @@ function my_church_get_project_author($template_type = 'page', $show = true) {
 				'</div>' . 
 			'</div>';
 		}
+		*/
 	}
 	
 	
