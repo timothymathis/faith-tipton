@@ -232,7 +232,7 @@ if ($project_tags) {
 if ($cmsmasters_project_more_posts != 'hide') {
 	my_church_related( 
 		'h3', 
-		esc_html__('More projects', 'my-church'), 
+		esc_html__('Get Connected', 'my-church'), 
 		esc_html__('No projects found', 'my-church'), 
 		$cmsmasters_project_more_posts, 
 		$tgsarray, 
