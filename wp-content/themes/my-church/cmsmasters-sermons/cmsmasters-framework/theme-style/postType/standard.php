@@ -97,7 +97,7 @@ $cmsmasters_title = strip_tags(get_the_title(get_the_ID()));
 		echo '<h3 class="cmsmasters_sermon_title entry-title">' . '<a href="' . esc_url(get_permalink()) . '">' . esc_html($cmsmasters_title) . '</a>' . '</h3>' . "\n";
 	}
 	
-	
+	/*
 	if ($author) {
 		echo '<div class="cmsmasters_sermon_author">' . "\n" . 
 			esc_html__('Speaker', 'my-church') . ': ' . 
@@ -106,7 +106,7 @@ $cmsmasters_title = strip_tags(get_the_title(get_the_ID()));
 			'</a>' . 
 		'</div>' . "\n";
 	}
-	
+	*/
 	
 	if ($srm_categories) {
 		echo '<div class="cmsmasters_sermon_cat">' . esc_html__('Categories', 'my-church') . ': ' . my_church_get_the_category_list(get_the_ID(), 'srm-categs', ', ') . '</div>';

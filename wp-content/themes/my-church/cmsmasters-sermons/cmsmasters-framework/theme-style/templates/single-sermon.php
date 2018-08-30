@@ -51,7 +51,7 @@ $cmsmasters_sermon_more_posts = get_post_meta(get_the_ID(), 'cmsmasters_sermon_m
 	if ($cmsmasters_option['my-church' . '_sermon_author'] || $cmsmasters_option['my-church' . '_sermon_cat'] || $cmsmasters_option['my-church' . '_sermon_tag'] || $cmsmasters_option['my-church' . '_sermon_comment'] || $cmsmasters_option['my-church' . '_sermon_like']) {
 		echo '<div class="cmsmasters_sermon_cont_info entry-meta">';
 		
-		
+		/*
 		if ($cmsmasters_option['my-church' . '_sermon_author']) {
 			echo '<div class="cmsmasters_sermon_author">' . 
 				esc_html__('Speaker', 'my-church') . ': ' . 
@@ -60,6 +60,7 @@ $cmsmasters_sermon_more_posts = get_post_meta(get_the_ID(), 'cmsmasters_sermon_m
 				'</a>' . 
 			'</div>' . "\n";
 		}
+		*/
 		
 		
 		if ($cmsmasters_option['my-church' . '_sermon_cat']) {
