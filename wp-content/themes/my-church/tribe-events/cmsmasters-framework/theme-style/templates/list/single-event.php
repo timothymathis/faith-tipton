@@ -14,9 +14,15 @@ $has_venue_address = ( ! empty( $venue_details['address'] ) ) ? ' location' : ''
 ?>
 
 <div class="cmsmasters_events_list_event_wrap">
-		<div class="tribe-events-event-image">
-			<?php my_church_thumb(get_the_ID(), 'post-thumbnail', false, true, true, false, false, true, false); ?>
-		</div>
+		<?php 
+			// Show image if the Featured Image is set for the event
+			$event_image_html = my_church_thumb(get_the_ID(), 'post-thumbnail', false, true, true, false, false, false, false); 
+			if(!strrpos($event_image_html, "img_placeholder")) {
+				echo '<div class="tribe-events-event-image">';
+				echo $event_image_html;
+				echo '</div>';
+			}
+		?>
 		
 		<div class="cmsmasters_event_big_date">
 		<div class="cmsmasters_event_big_day"><?php echo tribe_get_start_date(null, false, 'd'); ?></div>
