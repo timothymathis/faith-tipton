@@ -138,6 +138,23 @@
   display: none;
 }
 
+/* Media page */
+
+.cmsmasters_open_sermon .cmsmasters_img_wrap {
+  display: none;
+}
+
+/* Events page */
+
+table.tribe-events-calendar tbody td.tribe-events-thismonth div[id*=tribe-events-daynum-] {
+  background-color: #dedede;
+  color: #8a8a8c; 
+}
+
+table.tribe-events-calendar tbody td.tribe-events-othermonth div[id*=tribe-events-daynum-] {
+  color: #8a8a8c;
+}
+
 /*-- My Church theme overrides --*/
 
 /* Navigation link for current page */
