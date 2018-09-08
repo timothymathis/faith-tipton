@@ -12,13 +12,13 @@
 /* Text on a dark-colored background */
 .text-on-dark-bg,
 .text-on-dark-bg p  {
-  color: rgb(255, 255, 255, .9);
+  color: rgba(255, 255, 255, .9);
 }
 .text-on-dark-bg h3 {
   color: rgb(255, 255, 255);
 }
 .text-on-dark-bg h5 {
-  color: rgb(255, 255, 255, .6);
+  color: rgba(255, 255, 255, .6);
 }
 
 /* Text on a light-colored background */
@@ -30,7 +30,11 @@
   color: rgb(255, 255, 255);
 }
 .text-on-light-bg h5 {
-  color: rgb(255, 255, 255, .6);
+  color: rgba(255, 255, 255, .6);
+}
+
+.hide {
+  display: none;
 }
 
 /* Small screens */
@@ -119,6 +123,10 @@
   .hide-for-small{
     display: block !important;
   }
+}
+
+.safari_only .cmsmasters_row_margin.cmsmasters_row_columns_behavior .cmsmasters_column.new-to-faith-section-image .cmsmasters_column_inner {
+  height: 100%;
 }
 
 /*-- Staff pages --*/
