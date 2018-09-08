@@ -128,7 +128,8 @@
   margin-bottom: 15px;
 }
 .cmsmasters_sermon .preloader {
-  padding-bottom: 72.41%;
+  /* padding-bottom: 72.41%; */
+  padding-bottom: 100%;
 }
 .cmsmasters_sermon .cmsmasters_sermon_media {
   padding-bottom: 12px;

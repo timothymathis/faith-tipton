@@ -45,7 +45,7 @@ $cmsmasters_title = strip_tags(get_the_title(get_the_ID()));
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('cmsmasters_sermon ' . $columns_num ); ?>>
 <?php
-	my_church_thumb_rollover(get_the_ID(), 'cmsmasters-blog-masonry-thumb', false, false, false, false, false, false, false, false, true);
+	my_church_thumb_rollover(get_the_ID(), 'square', false, false, false, false, false, false, false, false, true);
 	
 	
 	if (!post_password_required()) {
