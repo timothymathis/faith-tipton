@@ -34,7 +34,7 @@
 }
 
 .hide {
-  display: none;
+  display: none; 
 }
 
 /* Small screens */
@@ -146,14 +146,20 @@
   display: none;
 }
 
-/* Media page */
+/*-- Media page --*/
 
 .cmsmasters_open_sermon .cmsmasters_img_wrap {
   display: none;
 }
 
-/* Events page */
+/*-- Events page --*/
 
+/* Hide the header */
+.single-tribe_events .headline {
+  display: none;
+}
+
+/* Fix day color on month view */
 table.tribe-events-calendar tbody td.tribe-events-thismonth div[id*=tribe-events-daynum-] {
   background-color: #dedede;
   color: #8a8a8c; 
