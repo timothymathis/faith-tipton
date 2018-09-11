@@ -176,7 +176,7 @@ $cmsmasters_sermon_more_posts = get_post_meta(get_the_ID(), 'cmsmasters_sermon_m
 <?php
 
 if ($cmsmasters_sermon_sharing_box == 'true') {
-	my_church_sharing_box(esc_html__('Like this sermon?', 'my-church'));
+	my_church_sharing_box(esc_html__('Share this', 'my-church'));
 }
 
 
