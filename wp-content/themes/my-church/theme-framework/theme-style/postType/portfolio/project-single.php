@@ -201,7 +201,7 @@ $cmsmasters_project_more_posts = get_post_meta(get_the_ID(), 'cmsmasters_project
 <?php 
 
 if ($cmsmasters_project_sharing_box == 'true') {
-	my_church_sharing_box(esc_html__('Like this project?', 'my-church'));
+	my_church_sharing_box(esc_html__('Like this?', 'my-church'));
 }
 
 
